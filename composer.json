@@ -1,0 +1,22 @@
+{
+  "name": "pe/api-test",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^8.2",
+    "api-platform/core": "^3.1",
+    "zircote/swagger-php": "^4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "PE\\ApiTest\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {}
+  }
+}
